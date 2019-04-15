@@ -2,8 +2,11 @@
 Get CCTV Video Stream URL of DVR/NVR/XVR
 
 # Example Stream URL
-So you need **IP Address**, **User**, **Password** and **Channel No.**
+Your DVR will stream with RTSP Protocol (port 554)
 
-to composite the streaming url
+So you need **IP Address**, **User**, **Password** and **Channel No.** to composite the streaming url
 
-rtsp://<ip-address>:554/user=<user>&password=<pass>&channel=<channel>&stream=0.sdp?real_stream--rtp-caching=100
+For example, 
+
+rtsp://192.168.1.207:554/user=admin&password=1234&channel=2&stream=0.sdp?real_stream--rtp-caching=100
+
